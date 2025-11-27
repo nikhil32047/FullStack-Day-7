@@ -1,0 +1,53 @@
+Day 7:
+==========
+
+1) Input & Output Fundamentals
+=========================================
+Input: Python uses input() to take user input as a string.
+
+name = input("Enter name: ")
+
+Output: Python uses print() to display data.
+
+print("Welcome to Python")
+
+print() can display strings, numbers, variables, and expressions.
+
+
+2) The sep Attribute
+===============================
+sep defines the separator between multiple values inside print().
+Default separator = space " ".
+
+Example:
+print("Python", "Java", "C", sep="-")
+# Output: Python-Java-C
+
+Useful for formatting clean output.
+
+
+3) The end Attribute
+=============================
+end defines what to print at the end of the line.
+Default = newline (\n).
+
+Example:
+print("Hello", end=" ")
+print("World")
+# Output: Hello World
+
+Commonly used for printing in the same line.
+
+
+4) Formatted Strings (f-strings)
+=========================================
+f-strings allow embedding variables and expressions directly inside {}.
+They are fast, clean, and easy to read.
+
+Example:
+name = "Nikhil"
+age = 22
+print(f"My name is {name} and I am {age} years old.")
+
+Also supports expressions:
+print(f"10 + 20 = {10 + 20}")
